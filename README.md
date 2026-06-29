@@ -1,2 +1,2 @@
-# python-practice
-daily practice
+# python-practise
+daily practise
