@@ -1,0 +1,15 @@
+def factorial_function(n):
+    if n < 0:
+        return None
+    if n < 2:
+        return 1
+
+    product = 1
+    for i in range(2, n + 1):
+        product *= i
+    return product
+
+
+n = int(input('Enter a number to calculate its factorial: '))
+result = factorial_function(n)
+print(f"The factorial of {n} is {result}")
